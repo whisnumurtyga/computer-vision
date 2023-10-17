@@ -1,0 +1,6 @@
+1. contoh klasifikasi citra
+2. dataset nya sendiri
+3. boleh cari di internet
+4. minimal 1000 files
+5. coba diklasifikasan
+

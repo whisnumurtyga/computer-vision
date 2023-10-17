@@ -1,0 +1,26 @@
+VISI KOMPUTER VS IMAGE PROCESSING
+
+IP : Input dan Output Citra
+CV : Input Citra, Output Deskripsi/ Informasi yang nantinya di tindaklanjuti
+
+Kontrak Kuliah
+Tugas/ Kuiz (paling Gede)
+UTS
+UAS
+
+Populer Visi Komputer
+1. Agri Culture
+	Ex: deteksi penyakit melon, input gambar daun melon, kalo daun berwarna kuning ke coklatan berarti sakit
+2. Manufacturing
+	Ex: Quality Management - hasil laslasan nya masih bagus atau jelek, ada deteksi karat
+3. HealthCare
+	- Tumour Detection
+	- Biomedik
+	- Pak Rektor ngeproses tulang belakang, jadi dideteksi pake hukum fisika
+
+
+KLASIFIKASI : INPUT GAMBAR OUTPUT YA/BUKN
+DETEKSI : INPUT GAMBAR OUTPUT KOTAKAN DIMANA GAMBAR OBJEK YANG DIDETEKSI
+SEGMENTASI : PRESESISI DI TEPI OBJEK
+
+

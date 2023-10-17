@@ -1,0 +1,70 @@
+Convolutional Neural Network (CNN)
+
+A. Pengantar
+	1. Sudah ada sejak lama (Y LeCuunn tahun 1990) dia ingin rekognisi handwriting digit, dengan metode backpropagation tapi untuk 30 epoch dia butuh 3hari
+	
+	2. 
+	
+	
+Image Net, Res Net, itu nama arsitektur
+
+- input dari neural network itu fitur kalo cnn langsung gambarnya
+- CNN itu melakukan ribuan proses filtering
+- Kernel dan Channels itu berhubungan
+- Pooling Layer adalah mersize ukuran sebelumnnya
+
+Input: Input adalah data yang akan diproses oleh CNN. Input CNN biasanya berupa gambar yang berukuran tinggi, lebar, dan kedalaman.
+Convolutional layer: Convolutional layer adalah lapisan yang melakukan proses konvolusi. Proses konvolusi adalah proses mengekstrak fitur dari input dengan menggunakan kernel.
+Pooling layer: Pooling layer adalah lapisan yang mengurangi ukuran spasial dari output convolutional layer.
+Fully connected layer: Fully connected layer adalah lapisan yang menghubungkan setiap neuron pada output pooling layer dengan neuron pada lapisan berikutnya.
+Output: Output adalah hasil dari proses klasifikasi atau regres
+
+
+tesis pak ardian inception network ditambahin residual network
+
+- fine tunnging
+
+- orang orang menyediakan model zoo, mereka mentraining di image net
+
+- cara memperbanyank data kalo data kita terbatas menggunakan image/ data augmentation untuk menambah dataeset kita
+
+- Fine-tuning adalah teknik dalam pembelajaran mesin, terutama dalam konteks pelatihan model neural network, di mana Anda mengambil model yang sudah dilatih sebelumnya (model dasar) dan menyesuaikannya dengan tugas atau dataset tertentu. Tujuannya adalah untuk meningkatkan performa model yang sudah ada untuk tugas yang lebih spesifik daripada tugas yang dilatih sebelumnya.
+
+
+- Jenis jaringan syaraf tiruan
+	1. Feedforward Neural Network (FNN) atau Multilayer Perceptron (MLP): Ini adalah jaringan saraf yang paling sederhana dan umum. Mereka terdiri dari lapisan-lapisan input, lapisan-lapisan tersembunyi, dan lapisan output. MLP digunakan untuk berbagai tugas, seperti klasifikasi, regresi, dan pemodelan fungsi.
+
+	2. Recurrent Neural Network (RNN): RNN digunakan untuk tugas berurutan, seperti pemrosesan bahasa alami, pengenalan tulisan tangan, dan peramalan deret waktu. Mereka memiliki hubungan berurutan antar lapisan, yang memungkinkan mereka mengingat informasi sebelumnya.
+
+	3. Long Short-Term Memory (LSTM): Ini adalah jenis khusus dari RNN yang memiliki kemampuan untuk mengatasi masalah pelatihan jaringan berurutan yang lebih baik, terutama dalam mengatasi masalah menghilangnya atau meledaknya gradien.
+
+	4. Gated Recurrent Unit (GRU): Mirip dengan LSTM, GRU adalah jenis RNN lain yang lebih ringan dalam hal jumlah parameter dan sering digunakan dalam pemrosesan bahasa alami.
+
+	5. Autoencoder: Autoencoder adalah jaringan saraf yang digunakan untuk pemampatan data (encoding) dan dekompresi (decoding). Mereka sering digunakan dalam tugas pengurangan dimensi dan pemulihan data.
+
+	6. Generative Adversarial Network (GAN): GAN adalah arsitektur yang digunakan untuk generasi data baru yang realistis. Mereka terdiri dari dua jaringan, yaitu generator dan diskriminator, yang bersaing untuk meningkatkan kualitas generasi data.
+
+	7. Radial Basis Function Network (RBFN): Ini adalah jenis jaringan saraf yang sering digunakan dalam klasifikasi dan aproksimasi fungsi non-linear.
+
+	8. Kohonen Self-Organizing Maps (SOM): SOM adalah jenis jaringan saraf yang digunakan untuk tugas pengelompokan data dan visualisasi.
+
+	9. Hopfield Network: Ini adalah jaringan saraf yang digunakan untuk pemecahan masalah optimasi dan pemulihan data.
+
+	10. Boltzmann Machine: Boltzmann Machine adalah jaringan saraf yang digunakan dalam tugas-tugas pembelajaran tak terawasi dan pembelajaran terawasi.
+	
+- Arsitektur CNN
+	1. LeNet: LeNet adalah salah satu arsitektur CNN pertama yang dikembangkan oleh Yann LeCun untuk pengenalan karakter tulisan tangan. Ini terdiri dari lapisan konvolusi dan lapisan pooling.
+
+	2. AlexNet: AlexNet adalah arsitektur CNN yang revolusioner yang memenangkan kompetisi ImageNet pada tahun 2012. Ini lebih dalam dan lebih kompleks daripada LeNet dan memperkenalkan konsep dropout.
+
+	3. VGGNet: VGGNet memiliki arsitektur yang dalam dan homogen, dengan banyak lapisan konvolusi berturut-turut. Ini memenangkan kompetisi ImageNet pada tahun 2014.
+
+	4. GoogLeNet (Inception): GoogLeNet dikenal dengan arsitektur Inception yang memperkenalkan modul Inception, yang merupakan lapisan konvolusi dengan berbagai ukuran filter. Ini efisien dalam hal penggunaan parameter.
+
+	5. ResNet (Residual Network): ResNet memperkenalkan konsep "shortcut connections" yang memungkinkan pelatihan jaringan yang sangat dalam (dengan banyak lapisan) tanpa terjadinya masalah penurunan kinerja (vanishing gradient).
+
+	6. DenseNet: DenseNet adalah arsitektur yang menghubungkan setiap lapisan dengan setiap lapisan berikutnya dalam suatu blok. Hal ini memungkinkan pembelajaran fitur yang lebih baik dan efisien.
+
+	7. MobileNet: MobileNet adalah arsitektur yang dirancang khusus untuk aplikasi mobile dan perangkat dengan sumber daya terbatas. Ini memprioritaskan efisiensi komputasi dan ukuran model yang lebih kecil.
+
+	8. EfficientNet: EfficientNet adalah serangkaian arsitektur yang dirancang dengan cermat untuk memaksimalkan akurasi sambil tetap menjaga efisiensi komputasi dan ukuran model yang wajar.
