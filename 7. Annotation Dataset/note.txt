@@ -1,0 +1,8 @@
+- Dulu machine learning pake agregate channel => HOG => SVM => ROI
+
+Cara membuat object detection
+	1. Labelling
+	2. VGG Image Generator
+	3. COCO Annotator
+	4. Label Box
+	5. Dah gabung jadi label studio
